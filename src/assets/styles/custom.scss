@@ -1,0 +1,10 @@
+$theme-colors: (
+  "primary": #00d2c9,
+  "secondary": #006dff,
+  "grey100": #f0f0f0,
+);
+$primary: #00d2c9;
+$grey500: #898989;
+$white: #ffffff;
+
+@import "bootstrap/scss/bootstrap";

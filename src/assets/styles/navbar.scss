@@ -1,0 +1,39 @@
+.logo {
+  width: 100px;
+
+  @include media-breakpoint-down(xl) {
+    width: 65px;
+  }
+}
+
+.menu__btn {
+  width: 25px;
+  @include media-breakpoint-down(xl) {
+    width: 20px;
+  }
+}
+
+.dropdown-item {
+  font-size: 14px;
+}
+
+.navbar-brand {
+  @include media-breakpoint-down(xl) {
+    margin-right: 10px !important;
+  }
+}
+
+.navbar-nav {
+  & .nav-link.active {
+    background: $primary;
+    border-radius: 5px;
+    color: #fff;
+  }
+  @include media-breakpoint-down(xl) {
+    .nav-link,
+    .dropdown-item {
+      font-size: 13px;
+      padding: 5px !important;
+    }
+  }
+}
